@@ -1,0 +1,47 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 70%;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(http://25.media.tumblr.com/tumblr_m25thhZ7Uc1r9z0ano1_500.gif);
+ 
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 0.5% 0%;
+  /*5px*/
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0%;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 3.2%;
+  /*30px*/
+  color: rgb(129, 32, 32);
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+  /*2s*/
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

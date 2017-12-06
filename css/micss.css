@@ -1,0 +1,17 @@
+ #juego {
+    width: 600px;
+    height: 600px;
+    border: solid 2px black;
+}
+ .ficha{
+    width: 33.333%;
+    height: 33.333%;
+    float: left;
+    border: solid 2px black;
+    box-sizing: border-box;
+    background-color: black;
+ }
+ #resuelto {
+    width: 80%;
+    margin-left: 10%;
+}
